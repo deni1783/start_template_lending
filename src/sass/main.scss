@@ -1,0 +1,9 @@
+@import '_vars.scss';
+@import '_normalize_css.scss';
+@import '_common_styles.scss';
+
+@import 'sections/header.scss';
+@import 'sections/menu.scss';
+@import 'sections/footer.scss';
+
+// Дальше добавляем нужные импорты отдельных секций

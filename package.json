@@ -1,0 +1,22 @@
+{
+  "name": "start_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync"      : "latest",
+    "gulp"              : "latest",
+    "gulp-autoprefixer" : "latest",
+    "gulp-sass"         : "latest",
+    "gulp-jade"         : "latest",
+    "gulp-clean"        : "latest",
+    "gulp-imagemin"     : "latest",
+    "imagemin-pngquant" : "latest",
+    "gulp-plumber"      : "latest",
+    "gulp-rename"       : "latest",
+    "gulp-sourcemaps"   : "latest",
+  }
+}
