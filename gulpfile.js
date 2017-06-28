@@ -79,7 +79,7 @@ gulp.task("webserver", function (cb) {
 
 // Собираем JADE
 gulp.task('jade', function() {
-  return gulp.src(path.src.jade, { since: gulp.lastRun('jade') })
+  return gulp.src(path.src.jade)
     .pipe(plumber())
     .pipe(jade({pretty: true}))
     .pipe(rename('index.html'))
@@ -91,7 +91,7 @@ gulp.task('jade', function() {
 
 // Собираем SASS
 gulp.task('sass', function () {
-  return gulp.src(path.src.sass, { since: gulp.lastRun('sass') })              // берем файлы
+  return gulp.src(path.src.sass)
     .pipe(plumber())
     .pipe(sourceMaps.init())
     .pipe(sass())
