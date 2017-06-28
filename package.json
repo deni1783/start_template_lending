@@ -17,6 +17,6 @@
     "imagemin-pngquant" : "latest",
     "gulp-plumber"      : "latest",
     "gulp-rename"       : "latest",
-    "gulp-sourcemaps"   : "latest",
+    "gulp-sourcemaps"   : "latest"
   }
 }
